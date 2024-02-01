@@ -1,0 +1,38 @@
+.container{
+    height: 20rem;
+    width: 40%;
+ 
+    margin: auto;
+    border: 1px solid rgb(141, 141, 206);
+    margin-top: 2rem;
+   
+    border-radius: 10px;
+
+    background-image: url("https://www.imageshine.in/uploads/gallery/Pink-Color-Background-images-free-download.jpg");
+
+    padding-bottom: 3rem;
+}
+
+.childContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.heading{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.backBox{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://circuitdigest.com/sites/default/files/inlineimages/u4/TechEagle-Drone.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
