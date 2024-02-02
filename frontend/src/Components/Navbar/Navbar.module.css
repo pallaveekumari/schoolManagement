@@ -1,0 +1,39 @@
+MyNavbar.css
+
+.my-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #2196f3; /* Change the background color as needed */
+    color: #ffffff; /* Change the text color as needed */
+  }
+  
+  .my-navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff; /* Change the text color as needed */
+  }
+  
+  .my-navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .my-navbar-menu-item {
+    margin-right: 1rem;
+  }
+  
+  .my-navbar-menu-item a {
+    text-decoration: none;
+    color: #ffffff; /* Change the text color as needed */
+    transition: color 0.3s ease;
+  }
+  
+  .my-navbar-menu-item a:hover {
+    color: #ff9800; /* Change the hover color as needed */
+  }
+  
